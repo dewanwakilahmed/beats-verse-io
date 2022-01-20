@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://dewan123:dewan123@beats-verse-io.ksnex.mongodb.net/beatsVerseIoDatabase?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://dewan123:dewan123@beats-verse-io.ksnex.mongodb.net/beatsVerseIoDatabase?retryWrites=true&w=majority",
+  "jwtSecret": "beatsVerseIoSecretToken"
 }
