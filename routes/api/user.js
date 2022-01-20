@@ -15,7 +15,7 @@ router.post(
   "/register",
   [
     check("name", "Name is required!").not().isEmpty(),
-    check("email", "Email is required!").isEmail(),
+    check("email", "Valid Email is required!").isEmail(),
     check(
       "password",
       "Password should contain at least 8 characters!"
