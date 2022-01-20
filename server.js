@@ -6,6 +6,9 @@ const app = express();
 // Connect to BEATS VERSE IO Database
 connectDB();
 
+// Init Middleware
+app.use(express.json({ extended: false })); // Request & Body Validation
+
 app.get("/", (req, res) => res.send("BEATS VERSE IO API is running..."));
 
 // Define Routes
