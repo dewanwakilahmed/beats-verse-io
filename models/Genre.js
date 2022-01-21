@@ -6,7 +6,7 @@ const GenreSchema = new mongoose.Schema({
     required: true,
     unique: true,
   },
-  image: {
+  icon: {
     type: String,
   },
   description: {

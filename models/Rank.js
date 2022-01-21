@@ -6,7 +6,7 @@ const RankSchema = new mongoose.Schema({
     required: true,
     unique: true,
   },
-  image: {
+  icon: {
     type: String,
   },
   minXp: {
